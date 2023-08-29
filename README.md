@@ -24,10 +24,10 @@ Ce projet consiste en une application de gestion des clubs d'étudiants, permett
 - Lombok (Génération de code)
 
 ## Endpoints de l'API
--GetMapping("/student"):Récupérer la liste de tous les students.
--PostMapping("/insertStudent"):Ajouter un nouveau student
--PutMapping("/updateStudent"): Mettre à jour les informations d'un students existant
--DeleteMapping("/deleteStudent/{id}"): Supprimer un student
--GetMapping("/getStudent/{id}"):Récupérer la liste d'un student par id
+- GetMapping("/student"):Récupérer la liste de tous les students.
+- PostMapping("/insertStudent"):Ajouter un nouveau student
+- PutMapping("/updateStudent"): Mettre à jour les informations d'un students existant
+- DeleteMapping("/deleteStudent/{id}"): Supprimer un student
+- GetMapping("/getStudent/{id}"):Récupérer la liste d'un student par id
 
 - ... (Ajoutez les endpoints pour les événements,les participations;les memebres et les clubs )
